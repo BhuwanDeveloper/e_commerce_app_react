@@ -37,6 +37,8 @@ function Cart() {
   const [cookies, setCookie] = useCookies(['cart']);
   const products = getCookieProducts(cookies.cart);
   const {total, shipping, tax, orderTotal} = getOrderSummary(products);
+
+  
   
 
 
